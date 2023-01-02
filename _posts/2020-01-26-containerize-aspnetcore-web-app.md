@@ -67,16 +67,16 @@ OR
   ```terminal
   docker build -t webapp:latest -f Dockerfile-linux .
   ```
- 1.1. If docker build is successfull, you should see docker image webapp:latest by running
+(1.1) If docker build is successfull, you should see docker image webapp:latest by running
 ```terminal
 docker images
 ```
 
 2. Create docker container from image:
-```terminal
+```bash
 docker run --name=webapp -d -p 8080:80 webapp
 ```
- 2.1 If docker run is successfull, you should see docker container webapp by running:
+(2.1) If docker run is successfull, you should see docker container webapp by running:
 ```terminal
 docker ps
 ```
@@ -88,11 +88,11 @@ docker inspect webapp
 at the end, check IPAddress field
 
 4. Access webapp via (took couple of seconds for me, before you can access site) :
-```http
-<http://127.0.0.1:8080>
+```
+http://127.0.0.1:8080
 ```
 OR
-```http
+```
 http://containerIPAddress
 ```
 
@@ -107,17 +107,17 @@ docker inspect <containerID>
 
 ### Docker commands to cleanup
 
-(1) Stop running docker container:
+1. Stop running docker container:
 ```terminal
 docker stop webapp
 ```
 
-(2) Remove docker container:
+2. Remove docker container:
 ```terminal
 docker rm webapp
 ```
 
-(3) Remove docker image:
+3. Remove docker image:
 ```terminal
 docker rmi webapp
 ```
