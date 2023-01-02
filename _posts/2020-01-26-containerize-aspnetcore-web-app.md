@@ -126,4 +126,4 @@ docker rmi webapp
 
 ## Result / Output
 
-![image](/assets/img/posts/2020-01-26-containerize-aspnetcore-web-app/HelloWorld.png))
+![image](/assets/img/posts/2020-01-26-containerize-aspnetcore-web-app/HelloWorld.png)
