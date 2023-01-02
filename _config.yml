@@ -21,10 +21,10 @@ timezone: Asia/Kolkata
 
 title: Abhishek Pradhan                          # the main title
 
-tagline: Tech notes / Blog   # it will display as the sub-title
+tagline: Tech notes / Blog / Tales from the cloud  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Blog / tech notes by Abhishek Pradhan
+  Tech notes / Blog / Tales from the cloud
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://blog.abhishekpradhan.com'
