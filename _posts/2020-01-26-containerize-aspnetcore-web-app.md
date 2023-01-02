@@ -6,7 +6,8 @@ tags: [dotnet, docker, container]
 render_with_liquid: false
 ---
 
-This tutorial will help you to containerize / dockerize ASP.NET Core web app
+This tutorial will help you to containerize / dockerize ASP.NET Core web app. Source code can be found at:
+- <https://github.com/abhishek-pradhan/aspnetcore-docker>
 
 ##  Docker image + container for ASP.NET Core web app  
 
