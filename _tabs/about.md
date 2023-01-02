@@ -12,7 +12,7 @@ This is Abhishek Pradhan. I use this blog as my tech notes / write about cloud. 
 
 - You can find me on twitter: <https://twitter.com/iamabhiprime>
 
-- ![image](/assets/img/favicons/avatar.jpg)
+![image](/assets/img/favicons/avatar.jpg)
 
 > All views, posts and opinions shared are my own
  {: .prompt-warning }
