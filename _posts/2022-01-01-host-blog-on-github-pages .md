@@ -73,11 +73,11 @@ That's all folks! Open browser & goto your new site! <https://abhishek-pradhan.g
 {: .prompt-info }
 
 ### Github site settings
-![Desktop View](../posts/assets/img/posts/2022-01-01-host-blog-on-github-pages/github-site-settings.png){: width="972" height="589" }
+![image](/assets/img/posts/2022-01-01-host-blog-on-github-pages/github-site-settings.png)
 _Github site settings_
 
 ### AWS Route53 site settings
-![Desktop View](../posts/assets/img/posts/2022-01-01-host-blog-on-github-pages/aws-route53-site-settings.png){: width="972" height="589" }
+![image](/assets/img/posts/2022-01-01-host-blog-on-github-pages/aws-route53-site-settings.png)
 _AWS Route53 site settings_
 
 > Note: I have removed my other site records from here, for clarity
@@ -140,7 +140,7 @@ That's all folks! Now go build!
 
 - Once deploy is successful, navigate to blog.abhishekpradhan.com
 ### GitHub Pages Actions
-![Desktop View](../posts/assets/img/posts/2022-01-01-host-blog-on-github-pages/github-pages-actions.png){: width="972" height="589" }
+![image](/assets/img/posts/2022-01-01-host-blog-on-github-pages/github-pages-actions.png)
 _GitHub Pages Actions_
 
 ## Writing new blog post
