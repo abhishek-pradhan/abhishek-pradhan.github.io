@@ -67,19 +67,19 @@ OR
   ```terminal
   docker build -t webapp:latest -f Dockerfile-linux .
   ```
-(1.1) If docker build is successfull, you should see docker image webapp:latest by running
-```terminal
-docker images
+  (1.1) If docker build is successfull, you should see docker image webapp:latest by running
+  ```terminal
+  docker images
 ```
 
 2. Create docker container from image:
 ```bash
 docker run --name=webapp -d -p 8080:80 webapp
 ```
-(2.1) If docker run is successfull, you should see docker container webapp by running:
-```terminal
-docker ps
-```
+  (2.1) If docker run is successfull, you should see docker container webapp by running:
+  ```terminal
+  docker ps
+  ```
 
 3. Now you can get ip address of docker container:
 ```terminal
@@ -125,4 +125,4 @@ docker rmi webapp
 
 ## Result / Output
 
-![Image of Result](https://github.com/abhishek-pradhan/aspnetcore-docker/blob/master/HelloWorld.PNG)
+![image](/assets/img/posts/2020-01-26-containerize-aspnetcore-web-app/HelloWorld.png))
