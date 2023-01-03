@@ -150,25 +150,63 @@ That's all folks! Now go build!
 ![image](/assets/img/posts/2022-01-01-host-blog-on-github-pages/github-pages-actions.png)
 _GitHub Pages Actions_
 
-## Writing a new blog post
+## Write a new blog post
 - Create a new file named YYYY-MM-DD-TITLE.md and put it in the _posts of the root directory. For instance: 2020-01-26-containerize-aspnetcore-web-app.md
+- Add Jekyll Front Matter at the top of the blog page, to configure per blog post basis settings:
+
+  ```md
+  ---
+  title: Host blog on GitHub Pages with custom domain
+  date: 2022-01-01 18:10
+  categories: [Blog, GitHub, AWS]
+  tags: [blog, github, git, aws]
+  render_with_liquid: false
+  ---
+  {: file='2020-01-26-containerize-aspnetcore-web-app.md'}
+
+  Now add blog's actual markdown like this
+  ## Hello world
+  This tutorial will help you to create a new blog/website and host it on GitHub...
+  ```
+
 - Commit & push changes to GitHub. Since we have configured GitHub Actions, any changes made to site are automatically deployed!
 - Visit your site on internet
 
-## Adding Disqus comments to blog post
+## Add Disqus comments to blog post
 - Ensure you first register your newly created blog on <https://disqus.com> and you note down shortname
-- Open _config.yml and set up disqus comments at 2 places
+- Open _config.yml and set up disqus comments at 2 places:
 
-```yaml
-comments:
-  active: 'disqus'      # The global switch for posts comments. Keep it empty means disabled
-  disqus:
-    shortname: 'blog-myshortname-fromdisqus-com'   # fill with the Disqus shortname
-defaults:
-  - scope:
-      path: ''          # An empty string here means all files in the project
-      type: posts
-    values:
-      comments: true    # Enable comments in posts.
-```
-{: file='_config.yml'}
+  ```yaml
+  comments:
+    active: 'disqus'      # The global switch for posts comments. Keep it empty means disabled
+    disqus:
+      shortname: 'blog-myshortname-fromdisqus-com'   # fill with the Disqus shortname
+  defaults:
+    - scope:
+        path: ''          # An empty string here means all files in the project
+        type: posts
+      values:
+        comments: true    # Enable comments in posts.
+  ```
+  {: file='_config.yml'}
+
+## Add Google Analytics
+- Please Refer <https://chirpy.cotes.page/posts/enable-google-pv/>
+
+## Add AWS S3 bucket to blog
+Add AWS S3 bucket to store images, instead of storing them as part of site at assets/img/posts folder
+- First create a AWS S3 bucket (for example: cdn.blog.yourblogname.com) and enable public access & S3 bucket policy with public access
+- Ensure you follow the same paths & create similar folder structure in S3
+- Upload your images to appropriate folders
+- Enable image cdn in _config.yml file & more importantly read the notice of paths starting with '/':
+  ```yaml
+  # The CDN endpoint for images.
+  # Notice that once it is assigned, the CDN url
+  # will be added to all image (site avatar & posts' images) paths starting with '/'
+  #
+  # e.g. 'https://cdn.com'
+  # img_cdn: 'https://cdn.com'
+  img_cdn: 'https://s3.ap-south-1.amazonaws.com/cdn.blog.yourblogname.com'
+  ```
+  {: file='_config.yml'}
+
