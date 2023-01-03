@@ -8,7 +8,7 @@ render_with_liquid: false
 
 Here I have captured key highlights from 2+ hours of AWS re:Invent 2022 Keynote by Adam Selipsky, AWS CEO. 
 
-> New AWS services announced are preceded by New & bold font
+> New AWS services announced are preceded by New & **bold** font
 {: .prompt-tip }
 
 ## Keynote by Adam Selipsky, AWS CEO
@@ -55,7 +55,8 @@ Here I have captured key highlights from 2+ hours of AWS re:Invent 2022 Keynote 
     - New **Amazon Omics**
 - Retail: Just Walk Out by Amazon
 
-### References
+## References
+
 - Watch now on YouTube: <a href="https://www.youtube.com/watch?v=Xus8C2s5K9A" target="_blank">Keynote by Adam Selipsky</a>
 
-- <https://reinvent.awsevents.com/keynotes/?trk=direct>
+- Explore: <a href="https://reinvent.awsevents.com/keynotes/?trk=direct" target="_blank">AWS re:Invent 2022</a>
