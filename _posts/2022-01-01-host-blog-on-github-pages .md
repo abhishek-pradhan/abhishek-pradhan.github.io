@@ -7,11 +7,16 @@ render_with_liquid: false
 pin: true
 ---
 
-This tutorial will help you to host a blog on GitHub (via GitHub Pages using Jekyll theme chirpy) for free with a custom domain
+This tutorial will help you to create a new blog/website and host it on GitHub (via GitHub Pages using Jekyll theme chirpy) for free with a custom domain
+- <https://pages.github.com/>
 
-##  Create new site
+##  Create new website
 
-Create a new repository in GitHub & give username as abhishek-pradhan.github.io (abhishek-pradhan is my github username)
+Create a new repo & use your username 'abhishek-pradhan.github.io' in Repository name & for rest of the options, use the default settings (abhishek-pradhan is my github username)
+
+### Create a new repository
+![image](/assets/img/posts/2022-01-01-host-blog-on-github-pages/create-new-repo.png)
+_Create a new repository_
 
   ```bash
   git clone https://github.com/abhishek-pradhan/abhishek-pradhan.github.io.git
@@ -83,8 +88,8 @@ _AWS Route53 site settings_
 > Note: I have removed my other site records from here, for clarity
 {: .prompt-info }
 
-##  Setup Jekyll for its themes
-- <https://jekyllrb.com/>
+##  Setup Jekyll
+- Transform your plain text into static websites and blogs: <https://jekyllrb.com/>
 
 ### Pre-requisites when using AWS Cloud 9 IDE
 ```bash
@@ -102,20 +107,18 @@ bundle exec jekyll serve
 Now browse to <http://127.0.0.1:4000/>
 
 > Note: Since we are on Linux terminal, I did curl http://127.0.0.1:4000/
-However, since I don't see the UI, I will be setting up Jekyll on my Windows 10 machine (see below).
+However, since I don't see the UI, I tried setting up Jekyll on my Windows 10 machine - this approach didn't work - check below update.
 {: .prompt-info }
 
-> Update: Cloud9 supports app preview on localhost, with only condition of:
-You aren't required to run your application using HTTP over port 8080, 8081, or 8082 with the IP address of 127.0.0.1, localhost, or 0.0.0.0. However, if you don't do so, you can't preview your running application from within the IDE.
-
-from <https://docs.aws.amazon.com/cloud9/latest/user-guide/app-preview.html> 
+> Update: AWS Cloud9 IDE supports app preview on localhost, with only condition of:
+You aren't required to run your application using HTTP over port 8080, 8081, or 8082 with the IP address of 127.0.0.1, localhost, or 0.0.0.0. However, if you don't do so, you can't preview your running application from within the IDE: from <https://docs.aws.amazon.com/cloud9/latest/user-guide/app-preview.html> 
 
 ```bash
 jekyll serve --port 8080 --host 127.0.0.1
 ```
 {: .prompt-tip }
 
-## Setup Jekyll for its themes - Chirpy:
+## Configure Jekyll theme - Chirpy:
 - <https://chirpy.cotes.page/posts/getting-started/>
 
 ```bash
@@ -143,7 +146,30 @@ That's all folks! Now go build!
 ![image](/assets/img/posts/2022-01-01-host-blog-on-github-pages/github-pages-actions.png)
 _GitHub Pages Actions_
 
-## Writing new blog post
+## Writing a new blog post
 - Create a new file named YYYY-MM-DD-TITLE.md and put it in the _posts of the root directory. For instance: 2020-01-26-containerize-aspnetcore-web-app.md
+- Commit & push changes to GitHub. Since we have configured GitHub Actions, any changes made to site are automatically deployed!
+- Visit your site on internet
+
+## Adding Disqus comments to blog post
+- Ensure you first register your newly created blog on <https://disqus.com> and you note down shortname
+- Open _config.yml and set up disqus comments at 2 places
+```yml
+comments:
+  active: 'disqus'      # The global switch for posts comments. Keep it empty means disabled
+  disqus:
+    shortname: 'blog-myshortname-fromdisqus-com'   # fill with the Disqus shortname
+...
+...
+...
+defaults:
+  - scope:
+      path: ''          # An empty string here means all files in the project
+      type: posts
+    values:
+      comments: true    # Enable comments in posts.
+```
+{: file='_config.yml'}
+
 
 
