@@ -90,6 +90,10 @@ _AWS Route53 site settings_
 
 ##  Setup Jekyll
 - Transform your plain text into static websites and blogs: <https://jekyllrb.com/>
+- I will be using AWS Cloud9 IDE, since it has developer tools installed out of the box, like git, ruby, gems: https://aws.amazon.com/cloud9/ 
+
+> Warning: AWS Cloud9 IDE will incur you charges, ensure to delete Cloud9 once you are done with it.
+{: .prompt-warning }
 
 ### Pre-requisites when using AWS Cloud 9 IDE
 ```bash
