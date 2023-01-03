@@ -193,8 +193,8 @@ _GitHub Pages Actions_
 ## Add Google Analytics
 - Please Refer <https://chirpy.cotes.page/posts/enable-google-pv/>
 
-## Add AWS S3 bucket to blog
-Add AWS S3 bucket to store images, instead of storing them as part of site at assets/img/posts folder
+## Setup CDN for images
+Let's use AWS S3 bucket as our CDN to serve images for this blog. We will be using S3 bucket to store images, instead of storing them as part of site at assets/img/ folder
 - First create a AWS S3 bucket (for example: cdn.blog.yourblogname.com) and enable public access & S3 bucket policy with public access
 - Ensure you follow the same paths & create similar folder structure in S3
 - Upload your images to appropriate folders
