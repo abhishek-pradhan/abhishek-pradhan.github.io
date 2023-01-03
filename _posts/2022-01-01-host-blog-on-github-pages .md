@@ -151,7 +151,7 @@ That's all folks! Now go build!
 _GitHub Pages Actions_
 
 ## Write a new blog post
-- Create a new file named YYYY-MM-DD-TITLE.md and put it in the _posts of the root directory. For instance: 2020-01-26-containerize-aspnetcore-web-app.md
+- Create a new file named YYYY-MM-DD-blog-title.md and put it in the _posts of the root directory. For instance: 2020-01-26-containerize-aspnetcore-web-app.md
 - Add Jekyll Front Matter at the top of the blog page, to configure per blog post basis settings:
 
   ```md
@@ -162,12 +162,12 @@ _GitHub Pages Actions_
   tags: [blog, github, git, aws]
   render_with_liquid: false
   ---
-  {: file='2020-01-26-containerize-aspnetcore-web-app.md'}
-
+  
   Now add blog's actual markdown like this
   ## Hello world
   This tutorial will help you to create a new blog/website and host it on GitHub...
   ```
+  {: file='2020-01-26-containerize-aspnetcore-web-app.md'}
 
 - Commit & push changes to GitHub. Since we have configured GitHub Actions, any changes made to site are automatically deployed!
 - Visit your site on internet
