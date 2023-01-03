@@ -158,14 +158,12 @@ _GitHub Pages Actions_
 ## Adding Disqus comments to blog post
 - Ensure you first register your newly created blog on <https://disqus.com> and you note down shortname
 - Open _config.yml and set up disqus comments at 2 places
-```yml
+
+```yaml
 comments:
   active: 'disqus'      # The global switch for posts comments. Keep it empty means disabled
   disqus:
     shortname: 'blog-myshortname-fromdisqus-com'   # fill with the Disqus shortname
-...
-...
-...
 defaults:
   - scope:
       path: ''          # An empty string here means all files in the project
@@ -174,6 +172,3 @@ defaults:
       comments: true    # Enable comments in posts.
 ```
 {: file='_config.yml'}
-
-
-
