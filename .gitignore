@@ -19,3 +19,6 @@ Gemfile.lock
 # npm dependencies
 node_modules
 package-lock.json
+
+# blog post images, since they are in AWS S3
+assets/img/posts/*

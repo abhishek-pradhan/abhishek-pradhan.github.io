@@ -7,8 +7,12 @@ render_with_liquid: false
 pin: true
 ---
 
-This tutorial will help you to create a new blog/website and host it on GitHub (via GitHub Pages using Jekyll theme chirpy) for free with a custom domain
+This tutorial will help you to create a new blog/website and host it on GitHub (via GitHub Pages using Jekyll) for free with a custom domain (optional).
 - <https://pages.github.com/>
+- Architecture diagram captures end-state of our Blog & tools/shared services used:
+  ### Blog Architecture diagram
+  ![image](/assets/img/posts/2022-01-01-host-blog-on-github-pages/blog-architecture.drawio.png)
+  _Blog Architecture diagram_
 
 ##  Create new website
 
