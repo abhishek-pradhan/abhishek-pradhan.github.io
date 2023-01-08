@@ -34,7 +34,11 @@ Here I have captured key highlights from ~2 hours of AWS re:Invent 2022 Keynote 
     - Asynchronous Coupling 
     - Self healing replicator 
 - Check out Amazon Builders Library for design patterns 
-- New **Amazon Code Catalyst**: its JP's Moneta boot / EKS blueprint 
+- New **Amazon Code Catalyst**: 
+    - A unified software development service that makes it faster to build & deliver in AWS (it has all the tools you need to go from idea to production)
+    - It's basic concept is of **blueprint** (like SPA application)
+    - It let's you easily create CI/CD pipelines, Development environments (to easily switch between codebases in 1 click)
+    - CodeCatalyst service seems similar to Azure DevOps
 - Gaming: 
     - Unreal Engine 
     - AWS Ambit Scenario Designer 
