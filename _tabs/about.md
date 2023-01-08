@@ -12,7 +12,7 @@ Hello World!
 Hi, this is Abhishek Pradhan. I use this blog as my tech notes / write about cloud. I am AWS certified Solutions Architect - Professional.
 
 - You can find me on twitter: <https://twitter.com/iamabhiprime>
-- Check out my website, which is hosted on AWS using AWS CloudFront: <https://abhishekpradhan.com>
+- Check out my website (hosted on AWS using S3, CloudFront, Route53): <a href='www.abhishekpradhan.com'>www.abhishekpradhan.com</a>
 
 > All views, posts and opinions shared are my own
  {: .prompt-warning }

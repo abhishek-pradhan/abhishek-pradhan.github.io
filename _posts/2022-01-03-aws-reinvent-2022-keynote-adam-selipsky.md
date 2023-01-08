@@ -1,7 +1,7 @@
 ---
 title: AWS re:Invent 2022 Keynote by Adam Selipsky
 date: 2022-01-03 10:10
-categories: [AWS, reInvent, Keynote]
+categories: [AWS, re:Invent, Keynote]
 tags: [aws, reinvent]
 render_with_liquid: false
 ---

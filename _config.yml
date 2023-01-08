@@ -21,7 +21,7 @@ timezone: Asia/Kolkata
 
 title: Abhishek Pradhan                          # the main title
 
-tagline: Tech notes / Blog / Tales from the cloud  # it will display as the sub-title
+tagline: Tales from the cloud / Tech notes # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Tech notes / Blog / Tales from the cloud
