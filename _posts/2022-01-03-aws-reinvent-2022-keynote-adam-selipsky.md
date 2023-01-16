@@ -8,12 +8,12 @@ render_with_liquid: false
 
 Here I have captured key highlights from 2+ hours of AWS re:Invent 2022 Keynote by Adam Selipsky, AWS CEO. 
 
-> New AWS services announced are preceded by New & **bold** font
+> New AWS services announced are preceded by New &amp; **bold** font
 {: .prompt-tip }
 
 ## Keynote by Adam Selipsky, AWS CEO
 
-- 11th AWS re:Invent in Las Vegas: 50k+ customers & 300,000 attendees registered virtually, over 2300 sessions
+- 11th AWS re:Invent in Las Vegas: 50k+ customers &amp; 300,000 attendees registered virtually, over 2300 sessions
 - **Powering AWS operations**: 100% renewable energy by 2025! - currently at 85% and Water positive by 2030
 - Drive Innovation / Innovate faster (Abhi: frequently used term in AWS, so is Undifferentiated heavy lifting !)
 - New Preview of **Amazon OpenSearch Service - Serverless**
@@ -21,11 +21,11 @@ Here I have captured key highlights from 2+ hours of AWS re:Invent 2022 Keynote 
     - Amazon Redshift Federated query
     - Athena Federated query
     - AWS Data Exchange integration with Redshift
-    - SageMaker integration with Aurora & Redshift
+    - SageMaker integration with Aurora &amp; Redshift
 - New **Amazon Aurora zero-ETL integration with Redshift**:
-    - Near real time analytics & ML on transactional data
+    - Near real time analytics &amp; ML on transactional data
     - Consolidate data from multiple Aurora databases
-    - Updates automatically & continuously
+    - Updates automatically &amp; continuously
     - Serverless
 - Apache Spark runs 3x faster on AWS than open-source via:
     - EMR
@@ -35,12 +35,12 @@ Here I have captured key highlights from 2+ hours of AWS re:Invent 2022 Keynote 
     - Run Spark queries on Redshift data from EMR, Glue, SageMaker within seconds
     - No need to move any data
     - Supports most popular language Frameworks: Java, Python, R, Scala
-- New **Amazon DataZone**: A Data Management service to catalog, discover, share, & govern data
+- New **Amazon DataZone**: A Data Management service to catalog, discover, share, &amp; govern data
 - New Quicksight's **ML powered forecasting with Q**
 - Amazon GuardDuty EKS protection
 - New **Container runtime threat detection for GuardDuty**
-- AWS co-founded **Open Cybersecurity Schema Framework (OCSF)** to normalize security logs & event data to be vendor agnostic
-- New **Amazon Security Lake** & supports OCSF
+- AWS co-founded **Open Cybersecurity Schema Framework (OCSF)** to normalize security logs &amp; event data to be vendor agnostic
+- New **Amazon Security Lake** &amp; supports OCSF
 - 2 main types of ML workloads:
     - Training: used to create new models
     - Inference: uses these models to generate Predictions

@@ -9,14 +9,14 @@ pin: true
 
 This tutorial will help you to create a new blog/website and host it on GitHub (via GitHub Pages using Jekyll) for free with a custom domain (optional).
 - <https://pages.github.com/>
-- Architecture diagram captures end-state of our Blog & tools/shared services used:
+- Architecture diagram captures end-state of our Blog &amp; tools/shared services used:
   ### Blog Architecture diagram
   ![image](/assets/img/posts/2022-01-01-host-blog-on-github-pages/blog-architecture.drawio.png)
   _Blog Architecture diagram_
 
 ##  Create new website
 
-Create a new repo & use your username 'abhishek-pradhan.github.io' in Repository name & for rest of the options, use the default settings (abhishek-pradhan is my github username)
+Create a new repo &amp; use your username 'abhishek-pradhan.github.io' in Repository name &amp; for rest of the options, use the default settings (abhishek-pradhan is my github username)
 
 ### Create a new repository
 ![image](/assets/img/posts/2022-01-01-host-blog-on-github-pages/create-new-repo.png)
@@ -53,7 +53,7 @@ _Create a new repository_
 	git remote -v
   ```
 
-  Ensure your user name & email id is set
+  Ensure your user name &amp; email id is set
   ```bash
 	git config --list
 	
@@ -65,9 +65,9 @@ _Create a new repository_
   ```bash
 	git push
   ```
-  and you will get a prompt if this is the first time you are using GitHub. Either login or generate classic token from Settings -> Developer token and then copy & paste the token in dialog
+  and you will get a prompt if this is the first time you are using GitHub. Either login or generate classic token from Settings -> Developer token and then copy &amp; paste the token in dialog
  
-That's all folks! Open browser & goto your new site! <https://abhishek-pradhan.github.io>
+That's all folks! Open browser &amp; goto your new site! <https://abhishek-pradhan.github.io>
 
 ##  Configure custom domain
 
@@ -78,7 +78,7 @@ That's all folks! Open browser & goto your new site! <https://abhishek-pradhan.g
 - Go inside existing Public Hosted zone: abhishekpradhan.com
 - Add CNAME record with: blog.abhishekpradhan.com points to  abhishek-pradhan.github.io
 
-> Note: It takes time for github to verify DNS check & there after some time to Enforce https
+> Note: It takes time for github to verify DNS check &amp; there after some time to Enforce https
 {: .prompt-info }
 
 ### Github site settings
@@ -147,7 +147,7 @@ That's all folks! Now go build!
 
 - For now, all I did was update _config.yml file with my details
 
-- After that, ensure to goto Settings -> Pages -> Build and Deployment -> Source = GitHub Actions & clicked Configure button which created jekyll.yml file having CI/CD details. Commit this file to the repo. This file is used by GitHub Actions to build & deploy the site.
+- After that, ensure to goto Settings -> Pages -> Build and Deployment -> Source = GitHub Actions &amp; clicked Configure button which created jekyll.yml file having CI/CD details. Commit this file to the repo. This file is used by GitHub Actions to build &amp; deploy the site.
 
 - Once deploy is successful, navigate to blog.abhishekpradhan.com
 ### GitHub Pages Actions
@@ -173,7 +173,7 @@ _GitHub Pages Actions_
   ```
   {: file='2020-01-26-containerize-aspnetcore-web-app.md'}
 
-- Commit & push changes to GitHub. Since we have configured GitHub Actions, any changes made to site are automatically deployed!
+- Commit &amp; push changes to GitHub. Since we have configured GitHub Actions, any changes made to site are automatically deployed!
 - Visit your site on internet
 
 ## Add Disqus comments to blog post
@@ -199,14 +199,14 @@ _GitHub Pages Actions_
 
 ## Setup CDN for images
 Let's use AWS S3 bucket as our CDN to serve images for this blog. We will be using S3 bucket to store images, instead of storing them as part of site at assets/img/ folder
-- First create a AWS S3 bucket (for example: cdn.blog.yourblogname.com) and enable public access & S3 bucket policy with public access
-- Ensure you follow the same paths & create similar folder structure in S3
+- First create a AWS S3 bucket (for example: cdn.blog.yourblogname.com) and enable public access &amp; S3 bucket policy with public access
+- Ensure you follow the same paths &amp; create similar folder structure in S3
 - Upload your images to appropriate folders
-- Enable image cdn in _config.yml file & more importantly read the notice of paths starting with '/':
+- Enable image cdn in _config.yml file &amp; more importantly read the notice of paths starting with '/':
   ```yaml
   # The CDN endpoint for images.
   # Notice that once it is assigned, the CDN url
-  # will be added to all image (site avatar & posts' images) paths starting with '/'
+  # will be added to all image (site avatar &amp; posts' images) paths starting with '/'
   #
   # e.g. 'https://cdn.com'
   # img_cdn: 'https://cdn.com'
