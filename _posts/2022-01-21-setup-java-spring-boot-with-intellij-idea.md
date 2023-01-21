@@ -6,7 +6,8 @@ tags: [java, jdk]
 render_with_liquid: false
 ---
 
-This article will help you to setup JDK, maven, IntelliJ idea & create a new Java Spring Boot app on Ubuntu / Linux 
+This article will help you to setup JDK, maven, IntelliJ idea & create a new Java Spring Boot app on Ubuntu / Linux
+- Java Spring Boot app code is at: <https://github.com/abhishek-pradhan/java-spring-boot-initializer-demo> 
 
 #  Setup JDK, maven, Java Spring Boot app with IntelliJ Idea on Ubuntu / Linux
 
