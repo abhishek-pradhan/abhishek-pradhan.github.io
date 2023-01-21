@@ -31,11 +31,13 @@ This article will help you to setup JDK, maven, IntelliJ idea &amp; create a new
   vim ~/.bashrc
   ```
 
-  ```~/.bashrc
+  ```terminal
   export JAVA_HOME=/home/abhi/Downloads/jdk-17.0.6+10 
   export PATH=${PATH}:${JAVA_HOME}/bin 
   ```
-  > now reboot terminal &amp; run below java cmd to test setup
+  {: file='.bashrc'}
+
+  > Append these variables to .bashrc file, save and now reboot terminal &amp; run below java cmd to test setup
 
   ```terminal
   java --version
@@ -62,11 +64,13 @@ This article will help you to setup JDK, maven, IntelliJ idea &amp; create a new
   ```terminal
   vim ~/.bashrc 
   ```
-  ```~/.bashrc
+  ```terminal
   export M2_HOME=/home/abhi/Downloads/apache-maven-3.8.7 
   export PATH=${PATH}:${M2_HOME}/bin
   ```
-  > now reboot terminal &amp; run below mvn cmd to test setup
+  {: file='.bashrc'}
+
+  > Append these variables to .bashrc file, save and now reboot terminal &amp; run below mvn cmd to test setup
 
   ```terminal
   mvn --version
