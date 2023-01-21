@@ -1,6 +1,6 @@
 ---
 title: AWS re:Invent 2022 Keynote by Swami Sivasubramanian
-date: 2022-01-16 09:00
+date: 2023-01-16 09:00
 categories: [AWS, re:Invent, Keynote]
 tags: [aws, reinvent]
 render_with_liquid: false
@@ -14,10 +14,10 @@ Here I have captured key highlights from ~2 hours of AWS re:Invent 2022 Keynote 
 ## Keynote by Swami Sivasubramanian, AWS VP Data &amp; ML
 
 - AWS AI/ML stack:
-    ![AWS AI/ML stack](/assets/img/posts/2022-01-16-aws-reinvent-2022-keynote-swami-sivasubramanian/AWS-AI-ML-stack.png)
+    ![AWS AI/ML stack](/assets/img/posts/2023-01-16-aws-reinvent-2022-keynote-swami-sivasubramanian/AWS-AI-ML-stack.png)
     _AWS AI/ML stack_
 - Building an end-to-end Data Strategy:
-    ![AWS Building end-to-end Data Strategy](/assets/img/posts/2022-01-16-aws-reinvent-2022-keynote-swami-sivasubramanian/AWS-Building-endtoend-data-strategy.png)
+    ![AWS Building end-to-end Data Strategy](/assets/img/posts/2023-01-16-aws-reinvent-2022-keynote-swami-sivasubramanian/AWS-Building-endtoend-data-strategy.png)
     _AWS Building end-to-end Data Strategy_
 - New **Amazon Athena for Apache Spark**: Get started with interactive analytics on Apache Spark in under a second
 - New **Redshift integration for Apache Spark**: GA - check keynote by Adam
@@ -67,16 +67,16 @@ Here I have captured key highlights from ~2 hours of AWS re:Invent 2022 Keynote 
         - Data Producers: Teams that want to share data
         - Data Consumers: Teams that want to use data
         - Amazon DataZone provides unified environment or zone, where everyone in the organization from Data producers to Data consumers can share &amp; access data in a governed manner
-        - ![Amazon DataZone 1/4](/assets/img/posts/2022-01-16-aws-reinvent-2022-keynote-swami-sivasubramanian/Amazon-DataZone-1.png)
+        - ![Amazon DataZone 1/4](/assets/img/posts/2023-01-16-aws-reinvent-2022-keynote-swami-sivasubramanian/Amazon-DataZone-1.png)
         _Amazon DataZone 1/4_
         
-        - ![Amazon DataZone 2/4](/assets/img/posts/2022-01-16-aws-reinvent-2022-keynote-swami-sivasubramanian/Amazon-DataZone-2.png)
+        - ![Amazon DataZone 2/4](/assets/img/posts/2023-01-16-aws-reinvent-2022-keynote-swami-sivasubramanian/Amazon-DataZone-2.png)
         _Amazon DataZone 2/4_
 
-        - ![Amazon DataZone 3/4](/assets/img/posts/2022-01-16-aws-reinvent-2022-keynote-swami-sivasubramanian/Amazon-DataZone-3.png)
+        - ![Amazon DataZone 3/4](/assets/img/posts/2023-01-16-aws-reinvent-2022-keynote-swami-sivasubramanian/Amazon-DataZone-3.png)
         _Amazon DataZone 3/4_
     
-        - ![Amazon DataZone 4/4](/assets/img/posts/2022-01-16-aws-reinvent-2022-keynote-swami-sivasubramanian/Amazon-DataZone-4.png)
+        - ![Amazon DataZone 4/4](/assets/img/posts/2023-01-16-aws-reinvent-2022-keynote-swami-sivasubramanian/Amazon-DataZone-4.png)
         _Amazon DataZone 4/4_
 
 - Amazon **Aurora Zero-ETL integration** with Amazon Redshift

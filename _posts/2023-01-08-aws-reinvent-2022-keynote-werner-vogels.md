@@ -1,6 +1,6 @@
 ---
 title: AWS re:Invent 2022 Keynote by Werner Vogels
-date: 2022-01-08 12:10
+date: 2023-01-08 12:10
 categories: [AWS, re:Invent, Keynote]
 tags: [aws, reinvent]
 render_with_liquid: false

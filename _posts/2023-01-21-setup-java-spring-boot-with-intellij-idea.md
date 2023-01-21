@@ -100,7 +100,7 @@ This article will help you to setup JDK, maven, IntelliJ idea &amp; create a new
 
 ## Create Java spring boot app
 - Goto spring initlalizer: <https://start.spring.io/> &amp; download maven/jar project (demo.zip) as shown in below screenshot:
-![spring initializer](/assets/img/posts/2022-01-21-setup-java-spring-boot-with-intellij-idea/spring-initializer.png)
+![spring initializer](/assets/img/posts/2023-01-21-setup-java-spring-boot-with-intellij-idea/spring-initializer.png)
 
 - Unzip zip file &amp; open it with IntelliJ idea: 
   ```terminal
@@ -110,9 +110,9 @@ This article will help you to setup JDK, maven, IntelliJ idea &amp; create a new
   ```
 - Tell IntelliJ about your JDK &amp; maven paths (1 time setup):
   - Set JDK path: IntelliJ -> 'File' menu -> Project Structure -> Project (as shown below):
-    ![intellij jdk setup](/assets/img/posts/2022-01-21-setup-java-spring-boot-with-intellij-idea/intellij-jdk-setup.png)
+    ![intellij jdk setup](/assets/img/posts/2023-01-21-setup-java-spring-boot-with-intellij-idea/intellij-jdk-setup.png)
   - Set Maven home: IntelliJ -> 'File' menu -> Settings -> Build, Execution, Deployment -> Build Tools -> Maven(as shown below):
-    ![intellij maven setup](/assets/img/posts/2022-01-21-setup-java-spring-boot-with-intellij-idea/intellij-maven-setup.png)
+    ![intellij maven setup](/assets/img/posts/2023-01-21-setup-java-spring-boot-with-intellij-idea/intellij-maven-setup.png)
 
 - Now run your spring boot app from IntelliJ IDE's by right-clicking on DemoApplication file &amp; selecting Run or from IDE terminal:
   ```terminal
@@ -120,7 +120,7 @@ This article will help you to setup JDK, maven, IntelliJ idea &amp; create a new
   ```
 
 - This will compile &amp; run our spring boot app. Now open browser &amp; navigate to <http://localhost:8080/actuator> (see below): 
-![intellij spring boot run](/assets/img/posts/2022-01-21-setup-java-spring-boot-with-intellij-idea/intellij-spring-boot-run.png)
+![intellij spring boot run](/assets/img/posts/2023-01-21-setup-java-spring-boot-with-intellij-idea/intellij-spring-boot-run.png)
 
 > Note: JDK/maven/Intellij IDE versions may vary in future or you might be using a different distro of Linux, but this guide would still be valid.
 {: .prompt-info }

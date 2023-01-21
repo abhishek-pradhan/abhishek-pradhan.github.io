@@ -1,6 +1,6 @@
 ---
 title: Host blog on GitHub Pages with custom domain
-date: 2022-01-01 18:10
+date: 2023-01-01 18:10
 categories: [Blog, GitHub, AWS]
 tags: [blog, github, git, aws]
 render_with_liquid: false
@@ -11,7 +11,7 @@ This tutorial will help you to create a new blog/website and host it on GitHub (
 - <https://pages.github.com/>
 - Architecture diagram captures end-state of our Blog &amp; tools/shared services used:
   ### Blog Architecture diagram
-  ![image](/assets/img/posts/2022-01-01-host-blog-on-github-pages/blog-architecture.drawio.png)
+  ![image](/assets/img/posts/2023-01-01-host-blog-on-github-pages/blog-architecture.drawio.png)
   _Blog Architecture diagram_
 
 ##  Create new website
@@ -19,7 +19,7 @@ This tutorial will help you to create a new blog/website and host it on GitHub (
 Create a new repo &amp; use your username 'abhishek-pradhan.github.io' in Repository name &amp; for rest of the options, use the default settings (abhishek-pradhan is my github username)
 
 ### Create a new repository
-![image](/assets/img/posts/2022-01-01-host-blog-on-github-pages/create-new-repo.png)
+![image](/assets/img/posts/2023-01-01-host-blog-on-github-pages/create-new-repo.png)
 _Create a new repository_
 
   ```bash
@@ -82,11 +82,11 @@ That's all folks! Open browser &amp; goto your new site! <https://abhishek-pradh
 {: .prompt-info }
 
 ### Github site settings
-![image](/assets/img/posts/2022-01-01-host-blog-on-github-pages/github-site-settings.png)
+![image](/assets/img/posts/2023-01-01-host-blog-on-github-pages/github-site-settings.png)
 _Github site settings_
 
 ### AWS Route53 site settings
-![image](/assets/img/posts/2022-01-01-host-blog-on-github-pages/aws-route53-site-settings.png)
+![image](/assets/img/posts/2023-01-01-host-blog-on-github-pages/aws-route53-site-settings.png)
 _AWS Route53 site settings_
 
 > Note: I have removed my other site records from here, for clarity
@@ -151,7 +151,7 @@ That's all folks! Now go build!
 
 - Once deploy is successful, navigate to blog.abhishekpradhan.com
 ### GitHub Pages Actions
-![image](/assets/img/posts/2022-01-01-host-blog-on-github-pages/github-pages-actions.png)
+![image](/assets/img/posts/2023-01-01-host-blog-on-github-pages/github-pages-actions.png)
 _GitHub Pages Actions_
 
 ## Write a new blog post
@@ -161,7 +161,7 @@ _GitHub Pages Actions_
   ```md
   ---
   title: Host blog on GitHub Pages with custom domain
-  date: 2022-01-01 18:10
+  date: 2023-01-01 18:10
   categories: [Blog, GitHub, AWS]
   tags: [blog, github, git, aws]
   render_with_liquid: false
