@@ -4,7 +4,6 @@ date: 2022-01-21 16:00
 categories: [Java]
 tags: [java, jdk]
 render_with_liquid: false
-pin: true
 ---
 
 This article will help you to setup JDK, maven, IntelliJ idea & create a new Java Spring Boot app on Ubuntu / Linux 
