@@ -97,8 +97,7 @@ This article will help you to setup Dotnet/.NET 7, ASP.NET 7 with VS Code on Ubu
   cd dotnet7-webapi-hello-world
   ```
 
-> Check what all project types we can create using dotnet cli:
-
+  > Check what all project types we can create using dotnet cli:
   ```bash
   dotnet new list
   ```
