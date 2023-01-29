@@ -16,7 +16,7 @@ This article will help you to setup Dotnet/.NET 7, ASP.NET 7 with VS Code on Ubu
 
 ### Install Dotnet SDK
 
-1. Install Dotnet SDK binaries from <https://dotnet.microsoft.com/en-us/download/dotnet/7.0> &amp; Download Linux tar file
+- Install Dotnet SDK binaries from <https://dotnet.microsoft.com/en-us/download/dotnet/7.0> &amp; Download Linux tar file
 
   - Check your architecture version by running:
 
@@ -27,9 +27,9 @@ This article will help you to setup Dotnet/.NET 7, ASP.NET 7 with VS Code on Ubu
     > If Architecture: x86_64, this means you are on x64
     {: .prompt-tip }
 
-2. dotnet-sdk-7.0.102-linux-x64.tar.gz file gets downloaded to default ~/Downloads dir.
+- dotnet-sdk-7.0.102-linux-x64.tar.gz file gets downloaded to default ~/Downloads dir.
 
-3. Now go to Downloads dir &amp; create a new dir called .dotnet (we are creating .dotnet dir, since if you directly unzip .tar.gz, it will unzip all its contents to Downloads dir, which we don't want) 
+- Now go to Downloads dir &amp; create a new dir called .dotnet (we are creating .dotnet dir, since if you directly unzip .tar.gz, it will unzip all its contents to Downloads dir, which we don't want) 
 
   ```bash
   cd ~/Downloads
@@ -38,7 +38,7 @@ This article will help you to setup Dotnet/.NET 7, ASP.NET 7 with VS Code on Ubu
   tar zxvf dotnet-sdk-7.0.102-linux-x64.tar.gz -C .dotnet
   ```
 
-4. Set DOTNET_ROOT &amp; PATH variables in ~/.bashrc: (vim ~/.bashrc) 
+- Set DOTNET_ROOT &amp; PATH variables in ~/.bashrc: (vim ~/.bashrc) 
 
    ```bash
   # dotnet 7 sdk
@@ -49,7 +49,7 @@ This article will help you to setup Dotnet/.NET 7, ASP.NET 7 with VS Code on Ubu
 
     > Note: I am not sure why we need /tools dir in PATH, as it doesn't exist! However, this is what Microsoft recommends.
 
-5. Append these variables to .bashrc file, save and now reboot terminal &amp; run either of dotnet commands (dotnet --version or dotnet --info) to test setup:
+- Append these variables to .bashrc file, save and now reboot terminal &amp; run either of dotnet commands (dotnet --version or dotnet --info) to test setup:
 
   ```bash
   dotnet --version
@@ -61,7 +61,7 @@ This article will help you to setup Dotnet/.NET 7, ASP.NET 7 with VS Code on Ubu
 
 ### Setup dotnet auto completion
 
-1. *Optional* Setup dotnet auto-completion: Add following to ~/.bashrc and reboot terminal:
+- *Optional* Setup dotnet auto-completion: Add following to ~/.bashrc and reboot terminal:
 
   ```bash
     # dotnet auto-completion 
@@ -81,7 +81,7 @@ This article will help you to setup Dotnet/.NET 7, ASP.NET 7 with VS Code on Ubu
   ```
   {: file='.bashrc'}
 
-2. Test auto-completion:
+- Test auto-completion:
 
   ```terminal
   dotnet n (tab-out) -> dotnet new
