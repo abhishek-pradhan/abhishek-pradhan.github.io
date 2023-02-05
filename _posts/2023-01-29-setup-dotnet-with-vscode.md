@@ -1,12 +1,12 @@
 ---
-title: Setup Dotnet, ASP.NET 7 with VS Code on Ubuntu / Linux
+title: Setup Dotnet, ASP.NET app with VS Code on Ubuntu / Linux
 date: 2023-01-29 16:00
-categories: [DotNet]
-tags: [dotnet]
+categories: [Linux, DotNet]
+tags: [dotnet, linux, ubuntu]
 render_with_liquid: false
 ---
 
-This article will help you to setup Dotnet/.NET 7, ASP.NET 7 with VS Code on Ubuntu / Linux
+This article will help you to setup Dotnet/.NET 7, ASP.NET 7 app with VS Code on Ubuntu / Linux
 - ASP.NET 7 webapi source code can be found at: <https://github.com/abhishek-pradhan/dotnet7-webapi-hello-world> 
 
 ## Setup Dotnet / .NET 7

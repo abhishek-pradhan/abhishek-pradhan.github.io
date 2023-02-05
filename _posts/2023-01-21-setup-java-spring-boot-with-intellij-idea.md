@@ -1,8 +1,8 @@
 ---
 title: Setup JDK, maven, Java Spring Boot app with IntelliJ Idea on Ubuntu / Linux
 date: 2023-01-21 16:00
-categories: [Java]
-tags: [java, jdk]
+categories: [Linux, Java]
+tags: [java, jdk, linux, ubuntu]
 render_with_liquid: false
 ---
 
@@ -117,6 +117,8 @@ This article will help you to setup JDK, maven, IntelliJ idea &amp; create a new
     ![intellij jdk setup](/assets/img/posts/2023-01-21-setup-java-spring-boot-with-intellij-idea/intellij-jdk-setup.png)
   - Set Maven home: IntelliJ -> 'File' menu -> Settings -> Build, Execution, Deployment -> Build Tools -> Maven(as shown below):
     ![intellij maven setup](/assets/img/posts/2023-01-21-setup-java-spring-boot-with-intellij-idea/intellij-maven-setup.png)
+
+> Note: You may have to click 'Reload All Maven Projects' button on right hand side Maven panel, if you are not getting any intelli-sense in IDE or you get 'Java file outside of source root intelliJ' when you hover over Java files. This should resolve the issue. 
 
 - Now run your spring boot app from IntelliJ IDE's by right-clicking on DemoApplication file &amp; selecting Run or from IDE terminal:
   ```terminal
