@@ -214,3 +214,6 @@ Let's use AWS S3 bucket as our CDN to serve images for this blog. We will be usi
   ```
   {: file='_config.yml'}
 
+## References
+- Chirpy theme: <https://chirpy.cotes.page/posts/getting-started/>
+- Github source code for this blog: <https://github.com/abhishek-pradhan/abhishek-pradhan.github.io>
