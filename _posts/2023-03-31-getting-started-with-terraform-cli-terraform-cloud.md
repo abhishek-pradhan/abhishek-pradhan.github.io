@@ -182,8 +182,8 @@ This article will help you to setup Terraform CLI (OSS) and Terraform Cloud.
 - When you create cloud9 IDE, all defaults were selected, with 2 key points:
   - Connection = AWS Systems Manager (SSM)
   - Platform = Amazon Linux 2
-  - ![aws cloud9 settings](../assets/img/posts/2023-03-31-getting-started-with-terraform-cli-terraform-cloud/cloudnine-settings1.png)
-  - ![aws cloud9 settings](../assets/img/posts/2023-03-31-getting-started-with-terraform-cli-terraform-cloud/cloudnine-settings2.png)
+  - ![aws cloud9 settings](/assets/img/posts/2023-03-31-getting-started-with-terraform-cli-terraform-cloud/cloudnine-settings1.png)
+  - ![aws cloud9 settings](/assets/img/posts/2023-03-31-getting-started-with-terraform-cli-terraform-cloud/cloudnine-settings2.png)
 
 - Once Cloud9 IDE is created, launch it & fire away git, terraform commands!
   - terraform login
@@ -198,7 +198,7 @@ This article will help you to setup Terraform CLI (OSS) and Terraform Cloud.
 - Also, alternately you can upload your code to Cloud 9, make changes in Cloud9 IDE & download the code back, if you don't want to do it git way.
 
 - Cloud9 IDE is the easiest way to get started with Terraform Cloud! (see below screenshot):
-  ![aws cloud9 terraform success](../assets/img/posts/2023-03-31-getting-started-with-terraform-cli-terraform-cloud/cloudnine-terraform-success.png)
+  ![aws cloud9 terraform success](/assets/img/posts/2023-03-31-getting-started-with-terraform-cli-terraform-cloud/cloudnine-terraform-success.png)
   *Screenshot: AWS Cloud9 Terraform Success*
   
 - Successful Terraform run from Cloud9 IDE (screenshot below):
