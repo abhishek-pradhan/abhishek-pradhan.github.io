@@ -24,7 +24,7 @@ This article gives you hands-on lab for creating AWS resources using Terraform c
 ## Let's provision AWS resources
 - Login to Terraform Cloud <https://app.terraform.io/> and create an organization, let's say *tfc-aws-demo-org*
 
-- Goto Organization Settings -> Variable sets -> Create variable set -> setup Variables set with 2 env variables: AWS_ACCESS_KEY_ID & AWS_SECRET_ACCESS_KEY. Values of these env variables is from Pre-Requisites #1 (see below screenshot for all the settings)
+- Goto Organization Settings -> Variable sets -> Create variable set -> setup Variables set with 2 env variables: *AWS_ACCESS_KEY_ID* & *AWS_SECRET_ACCESS_KEY*. Values of these env variables is from Pre-Requisites #1 (see below screenshot for all the settings)
 
   > Notes from Terraform doc: 
     - Terraform uses [variables](https://developer.hashicorp.com/terraform/language/values/variables) for all plans and applies within a workspace. [Variable sets](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/variables#scope) are a group of commonly used variables that you can apply to multiple workspaces in an organization.
@@ -41,27 +41,32 @@ This article gives you hands-on lab for creating AWS resources using Terraform c
     ```terminal
     git clone git@github.com:abhishek-pradhan/tfc-aws-demo.git
     ```
+
   - Open up Visual studio code:
     ```terminal
   	$ cd tfc-aws-demo/ && code .
     ```
+
   - All you need to do is to change organization name in providers.tf to point to organization that you created above.
   - Also, check terraform.tfvars file to change aws region and aws resources, to avoid conflict
+  
   > Note: In order to demo data block type, please ensure that aws s3 bucket named in data block type is present in your account or create one (manually or with aws cli) & update its name in ab_cdn_bucket OR comment out / remove data block from main.tf and its usage from outputs.tf file
   {: .prompt-info }
 
-  	- Create s3 bucket:
-        ```terminal
-        $ aws s3api create-bucket --bucket tfc-aws-demo-891223 --create-bucket-configuration LocationConstraint=ap-south-1
-        ```
-  	- Tag s3 bucket: 
+  - Create s3 bucket:
       ```terminal
-      $ aws s3api put-bucket-tagging --bucket tfc-aws-demo-891223 --tagging "TagSet=[{Key=Terraform, Value=true}, {Key=Environment, Value=dev}]"
+      aws s3api create-bucket --bucket tfc-aws-demo-891223 --create-bucket-configuration LocationConstraint=ap-south-1
       ```
-  	- Delete s3 bucket (post you are done with this lab):
-  	  ```terminal
-      $ aws s3api delete-bucket --bucket tfc-aws-demo-891223
-      ```
+
+  - Tag s3 bucket: 
+    ```terminal
+    aws s3api put-bucket-tagging --bucket tfc-aws-demo-891223 --tagging "TagSet=[{Key=Terraform, Value=true}, {Key=Environment, Value=dev}]"
+    ```
+
+  - Delete s3 bucket (post you are done with this lab):
+    ```terminal
+    aws s3api delete-bucket --bucket tfc-aws-demo-891223
+    ```
 
 - Now we need terraform api token so that we can connect terraform cli to our terraform cloud account and start using tfc as our remote backend:
   ```terminal
@@ -125,5 +130,5 @@ This article gives you hands-on lab for creating AWS resources using Terraform c
   ![terraform run success](/assets/img/posts/2023-04-01-provision-aws-using-terraform-cloud/terraform-run-success.png)
   *Screenshot: Terraform run success*
 
-> Tip: Here I am using manual way run Terraform cli commands to create AWS resources, however we can also setup CI/CD pipeline to automate this. Since we are using TFC, I don/t have to setup & create CI/CD pipeline using Jenkins. TFC provides us to do this out of the box!
+> Tip: Here I am using manual way to run Terraform cli commands to create AWS resources, however we can also setup CI/CD pipeline to automate this. Since we are using TFC, I don/t have to setup & create CI/CD pipeline using Jenkins. TFC provides us to do this out of the box!
 {: .prompt-tip }
