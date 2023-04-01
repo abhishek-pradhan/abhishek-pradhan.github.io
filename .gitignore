@@ -21,4 +21,5 @@ node_modules
 package-lock.json
 
 # blog post images, since they are in AWS S3
-assets/img/posts/*
+assets/img/posts/*/*.png
+assets/img/posts/*/*.jpg
