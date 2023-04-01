@@ -13,6 +13,7 @@ This article will help you to setup Terraform CLI (OSS) and Terraform Cloud.
 2. Setup Terraform CLI: <a href="https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli">Install Terraform | Terraform | HashiCorp Developer</a>
 3. Download Terraform's Hello World (it's called getting-started example) terraform template from github: <a href="https://github.com/hashicorp/tfc-getting-started">GitHub - hashicorp/tfc-getting-started: An example Terraform configuration for Terraform Cloud</a>
 4. Run setup.sh script & enjoy the show!
+5. If you ready to take your skills to the next level, refer [What's next?](#whats-next) section.
 
 ## Setup Terraform CLI
 > Note: I have shown 3 ways / 3 platforms for installing Terraform CLI.
@@ -204,3 +205,6 @@ This article will help you to setup Terraform CLI (OSS) and Terraform Cloud.
 - Successful Terraform run from Cloud9 IDE (screenshot below):
   ![successfull terraform cloud run](/assets/img/posts/2023-03-31-getting-started-with-terraform-cli-terraform-cloud/terraform-cloud-run.png)
   *Screenshot: Successfull Terraform Cloud run*
+
+## What's next?
+- Refer my <a href="https://blog.abhishekpradhan.com/posts/provision-aws-using-terraform-cloud/">hands-on lab article</a> for provisioning AWS resources using Terraform Cloud!
