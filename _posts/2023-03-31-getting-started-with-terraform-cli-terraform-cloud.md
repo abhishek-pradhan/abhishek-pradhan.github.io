@@ -1,7 +1,7 @@
 ---
 title: Getting started with Terraform CLI (OSS) and Terraform Cloud
 date: 2023-03-31 12:15
-categories: [Terraform, AWS]
+categories: [AWS, Terraform]
 tags: [terraform, aws]
 render_with_liquid: false
 ---

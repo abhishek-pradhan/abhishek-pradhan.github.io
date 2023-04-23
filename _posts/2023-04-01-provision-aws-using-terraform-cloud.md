@@ -1,7 +1,7 @@
 ---
 title: Provision AWS using Terraform Cloud
 date: 2023-04-01 11:00
-categories: [Terraform, AWS]
+categories: [AWS, Terraform]
 tags: [terraform, aws]
 render_with_liquid: false
 ---
