@@ -15,14 +15,14 @@ Hi, this is Abhishek Pradhan. I use this blog as my tech notes / write about clo
 - Check out my website (hosted on AWS using S3, CloudFront, Route53): <a href='https://abhishekpradhan.com'>www.abhishekpradhan.com</a>
 
 ### Certifications
-- AWS Certified Solutions Architect – Professional
-    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="22eb700f-59af-4bcb-a5ca-048df730d911" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+- AWS Certified Solutions Architect – Professional:
+    - <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="22eb700f-59af-4bcb-a5ca-048df730d911" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
-- AWS Certified Solutions Architect – Associate
-    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="WD0SB5V21BE415KC" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+- AWS Certified Solutions Architect – Associate:
+    - ![image](/assets/img/aws-sa-associate-badge.png)
 
-- HashiCorp Certified: Terraform Associate (002)
-    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8c97b06b-dcbb-423b-bfe0-91804aa3862b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+- HashiCorp Certified: Terraform Associate (002):
+    - <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8c97b06b-dcbb-423b-bfe0-91804aa3862b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 <br/><br/>
 
