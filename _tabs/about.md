@@ -12,6 +12,7 @@ Hello World!
 Hi, this is Abhishek Pradhan. I use this blog as my tech notes / write about cloud. I am AWS certified Solutions Architect - Professional.
 
 - You can find me on twitter: <https://twitter.com/iamabhiprime>
+- Email me: <a href="mailto:pradhan.abhishek@outlook.com">pradhan.abhishek(at)outlook(dot)com</a>
 - Check out my website (hosted on AWS using S3, CloudFront, Route53): <a href='https://abhishekpradhan.com'>www.abhishekpradhan.com</a>
 
 ### Certifications
