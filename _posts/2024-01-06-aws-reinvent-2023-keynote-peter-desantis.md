@@ -13,11 +13,11 @@ Here I have captured key highlights from 1+ hour of AWS re:Invent 2023 Keynote b
 
 ## Keynote by Peter DeSantis, AWS SVP, Utility Computing
 
-### Summary:
+### Summary
 
 - Innovations by AWS in Hardware for Serverless computing
 
-### Highlights:
+### Highlights
 
 - AWS Serverless offerings (to name a few): Lambda, S3, DynamoDB, Fargate
 - Amazon Aurora
