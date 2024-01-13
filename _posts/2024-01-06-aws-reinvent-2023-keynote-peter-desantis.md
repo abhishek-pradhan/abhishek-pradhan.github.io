@@ -13,7 +13,9 @@ Here I have captured key highlights from 1+ hour of AWS re:Invent 2023 Keynote b
 
 ## Keynote by Peter DeSantis, AWS SVP, Utility Computing
 
-### Summary: Innovations by AWS in Hardware for Serverless computing
+### Summary:
+
+- Innovations by AWS in Hardware for Serverless computing
 
 ### Highlights:
 
