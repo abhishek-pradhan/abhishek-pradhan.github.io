@@ -51,3 +51,6 @@ Here I have captured key highlights from 1+ hour of AWS re:Invent 2023 Keynote b
 - Watch now on YouTube: <a href="https://youtu.be/pJG6nmR7XxI?si=8P58ah_gP_SqVsW3" target="_blank">Keynote by Peter DeSantis</a>
 
 - Explore: <a href="https://reinvent.awsevents.com/keynotes/" target="_blank">AWS re:Invent 2023</a>
+
+> Note: Copyrights for images used in this blog post belongs to AWS / Amazon
+{: .prompt-info }

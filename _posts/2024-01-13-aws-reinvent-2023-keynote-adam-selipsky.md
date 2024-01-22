@@ -102,3 +102,6 @@ Here I have captured key highlights from 1+ hour of AWS re:Invent 2023 Keynote b
 - Watch now on YouTube: <a href="https://youtu.be/PMfn9_nTDbM?si=NraTQcVO_pPS-l-V" target="_blank">Keynote by Adam Selipsky</a>
 
 - Explore: <a href="https://reinvent.awsevents.com/keynotes/" target="_blank">AWS re:Invent 2023</a>
+
+> Note: Copyrights for images used in this blog post belongs to AWS / Amazon
+{: .prompt-info }

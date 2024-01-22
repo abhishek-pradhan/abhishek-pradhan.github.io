@@ -114,3 +114,6 @@ Here I have captured key highlights from ~2 hours of AWS re:Invent 2023 Keynote 
 - Learn: <a href="https://aws.amazon.com/machine-learning/mlu/" target="_blank">ML University</a>
 
 - Code: <a href="https://github.com/aws-samples/radiology-worklist-ich-detection" target="_blank">ML Model to detect brain haemorrhage (stroke)</a>
+
+> Note: Copyrights for images used in this blog post belongs to AWS / Amazon
+{: .prompt-info }
