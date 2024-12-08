@@ -16,8 +16,8 @@ Here I have captured key highlights from 1+ hour of AWS re:Invent 2024 Keynote b
 ### Summary
 
 Focus was majorly on:
-1. How Graviton chipset along with Nitro helped AWS renovate at Serve Hardware layer.
-1. Launch of new Trainium2 chipset & purpose built network '10p10u' & network routing for AI and it's benefits for running AI workloads in AWS
+1. How Graviton chipset along with Nitro helped AWS re-invent at Serve Hardware layer.
+1. Launch of new AWS 'Trainium2' chipset & purpose-built network '10p10u' & network routing for AI and it's benefits for running AI workloads in AWS.
 
 ### Highlights
 
